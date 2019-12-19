@@ -1,0 +1,23 @@
+.center-col{
+    display: flex!important;
+    align-content: center!important;
+    align-items: center!important;
+}
+
+span.number-icon-true {
+    width:1.5em;
+    height:1.5em;
+    font-size: 1.1em;
+    border-radius:50px;
+    background: #4783c4;
+    color:white
+}
+
+span.number-icon-false {
+    width:1.5em;
+    height:1.5em;
+    font-size: 1.1em;
+    border-radius:50px;
+    background: gray;
+    color:white
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">EPETs App</string>
+    <string name="title_activity_main">EPETs App</string>
+    <string name="package_name">com.epets.app</string>
+    <string name="custom_url_scheme">com.epets.app</string>
+</resources>
