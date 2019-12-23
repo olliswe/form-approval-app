@@ -10,7 +10,7 @@ User state management is handled by React Context in `src/context`. React Contex
 
 Each of the 3 user roles have a seperate IonRouterOutlet, which is wrapped around the protected router in the higher level router - thereby making all the routes in the lower level IonRouterOutlet protected:
 
-```src/App.js IonReactRouter
+`src/App.js IonReactRouter
         └──IonRouterOutlet
              |
              └── <AuthRoute path="/mof" component={MoFApp} category={['Minister']}/>
@@ -22,7 +22,7 @@ Each of the 3 user roles have a seperate IonRouterOutlet, which is wrapped aroun
              |           └── Financial Secretary Routes, all protected 
              └── <AuthRoute path="/mdamin" component={MDAMinApp} category={['Minister (MDA)']}/>
                  └── src/apps/MDAMinApp/App.js IonRouterOutlet
-                        └── MDA Minister Routes, all protected```
+                        └── MDA Minister Routes, all protected`
                             
 
 Components and pages that are shared across all/several user roles can be found in the `src/components` and `src/pages` directories.
