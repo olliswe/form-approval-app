@@ -8,7 +8,9 @@ This app is built using Ionic React, and consumes data from a DRF API hosted on 
 
 ## Functionality
 
-This app allows 
+This app allows 3 different user roles to login and view forms to submitted to them that are pending review. The users can take a number of actions (approve/forward for review/reject) and can add comments to their review. The users can also see a dashboard showing the location of forms within their organization. 
+
+This app was built as an add-on to a pre-existing Django web app which I also was the lead developer on.
 
 
 ## Authorization and User Roles
