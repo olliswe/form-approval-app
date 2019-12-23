@@ -21,6 +21,7 @@ src/App.js IonReactRouter
              └── <AuthRoute path="/fs" component={FSApp} category={['Financial Secretary']}/>
              |    └── src/apps/FinancialSec/App.js IonRouterOutlet
              |           └── Financial Secretary Routes, all protected 
+             |
              └── <AuthRoute path="/mdamin" component={MDAMinApp} category={['Minister (MDA)']}/>
                  └── src/apps/MDAMinApp/App.js IonRouterOutlet
                         └── MDA Minister Routes, all protected
